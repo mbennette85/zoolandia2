@@ -83,15 +83,15 @@ class Apis : Animal {
     }
 }
 class HoneyBee : Apis {
-    
+    private bool _endangered = true;
 }
 
 class RedDwarfBee : Apis {
-
+    private bool _endangered = false;
 }
 
 class GiantHoneyBee : Apis {
-
+    private bool _endangered = true;
 }
 
  // Genus/////////////////
@@ -122,7 +122,7 @@ class SakerFalcon : Falco {
         flyspeed = wingRatio + (0.2 * wingSpan);
     }    
 }
-
+  
 
 
 
