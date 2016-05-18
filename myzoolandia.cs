@@ -110,18 +110,22 @@ class BrownFalcon : Falco {
     public override void flightSpeed (int wingssize, int wingRatio) {
         flyspeed = wingRatio + ( 3 * wingSpan);
 }
-// Species
-class NewZealandFalcon : Falco {
-    public override void flightSpeed (int wingssize, int wingRatio) {
-        flyspeed = wingRatio + (0.5 * wingSpan);
-}
+    // Species
+    class NewZealandFalcon : Falco
+    {
+        public override void flightSpeed(int wingssize, int wingRatio)
+        {
+            flyspeed = wingRatio + (0.5 * wingSpan);
+        }
+    }
 
-// Species
-class SakerFalcon : Falco {
-    public override void flightSpeed (int wingssize, int wingRatio) {
-        flyspeed = wingRatio + (0.2 * wingSpan);
-    }    
-}
+        // Species
+        class SakerFalcon : Falco {
+            public override void flightSpeed(int wingssize, int wingRatio) {
+                flyspeed = wingRatio + (0.2 * wingSpan);
+            }
+        }
+    }
   
 
 
